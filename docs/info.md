@@ -9,12 +9,16 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The blue circle has unit radius and therefore an area of π units. We can enclose it by a polygon with exactly 3.3 units of area,
+adding the parts marked red. Using precision resistors that meander through the blue and red areas respectively we can construct
+a voltage divider that subdivides the the 3.3 V power and ground rails to achieve a π V output.
+
+![blue line meanders through circle, red line meanders through polygon minus circle](snake.png)
 
 ## How to test
 
-Explain how to use your project
+Measure the voltage between the single analog output pin and ground. It should read approximately π volts.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Multimeter or other test equipment
